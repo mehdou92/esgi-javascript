@@ -8,10 +8,13 @@ function isString(chaine) {
 function ucfirst(chaine){
     if(isString(chaine))
         return chaine.charAt(0).toUpperCase() + chaine.slice(1);
+    else
+        return '';
 }
 
 function capitalize(chaine){
-
+    if(isString(chaine))
+        return text.toLowerCase().split(' ').map((s) => s.charAt(0).toUpperCase() + s.substring(1)).join(' ');
 }
 
 
