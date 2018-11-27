@@ -25,8 +25,8 @@ function type_check_v1(elem, type) {
     }
 }
 
-console.log(type_check_v1(undefined, 'undefined'));
-console.log(type_check_v1('toto', 'undefined'));
+//console.log(type_check_v1(undefined, 'undefined'));
+//console.log(type_check_v1('toto', 'undefined'));
 //type_check_v1('string', 'string');
 //type_check_v1(1, 'number');
 //type_check_v1(null, 'number');
