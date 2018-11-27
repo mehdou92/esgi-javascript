@@ -20,8 +20,7 @@ function type_check_v1(elem, type) {
                 return typeof elem === "object";
 
             default:
-                console.log('error type doesn\'t exist');
-                break;
+                return false;
     }
 }
 
